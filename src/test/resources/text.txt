@@ -1,3 +1,3 @@
 That line is added just to push changes to GitHub to chock out of the repository trigger to Jenkins Job
-
-One more attempt
+double attempt
+I forgot to build trigger "GitHub hook trigger for GITScm polling"
