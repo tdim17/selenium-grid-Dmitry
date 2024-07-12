@@ -45,11 +45,9 @@ public class PracticePage {
         String password = System.getenv("password");
         System.out.println("password = " + password);
 
-
         usernameEl.sendKeys(username);
         passwordEl.sendKeys(password);
         loginButton.click();
-
 
 
     }
