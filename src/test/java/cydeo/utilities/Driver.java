@@ -47,7 +47,7 @@ public class Driver {
             switch (browserType) {
                 case "remote-chrome":
                     try {
-                        // assign your grid server address
+                        // assigning my Grid server address
                         String gridAddress = "54.162.50.13";
                         URL url = new URL("http://"+ gridAddress + ":4444/wd/hub");
                         ChromeOptions chromeOptions = new ChromeOptions();
@@ -61,7 +61,7 @@ public class Driver {
                     break;
                 case "remote-firefox":
                     try {
-                        // assign your grid server address
+                        // assigning my Grid server address
                         String gridAddress = "54.162.50.13";
                         URL url = new URL("http://"+ gridAddress + ":4444/wd/hub");
                         FirefoxOptions firefoxOptions=new FirefoxOptions();
