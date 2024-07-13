@@ -34,6 +34,7 @@ public class StepDefs {
     public void i_should_see_message(String expectedSuccessMessage) {
 
         String actualSuccessMessage = practicePage.successMessage.getText();
+        System.out.println("actualSuccessMessage = " + actualSuccessMessage);
         Assert.assertTrue(actualSuccessMessage.contains(expectedSuccessMessage));
     }
 

@@ -37,6 +37,7 @@ public class PracticePage {
     public void login() {
         // ENV VARIABLE ?
 
+        // We make it just to hide our confidential data by reading them from our System instead of form Configuration.properties
 
         //String username = ConfigurationReader.getProperty("username");
         //String password = ConfigurationReader.getProperty("password");
