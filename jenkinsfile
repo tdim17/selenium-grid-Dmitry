@@ -1,7 +1,7 @@
 node {
     stage('Clone code') {
-        //git 'https://github.com/Cydeo-B32/selenium-grid-demo'   // For Cydeo repo
-        git 'https://github.com/tdim17/selenium-grid-dmitry' // For My Repository
+        git 'https://github.com/Cydeo-B32/selenium-grid-demo'   // For Cydeo repo
+        // git 'https://github.com/tdim17/selenium-grid-dmitry' // For My Repository
     }
 
     stage('Run tests'){
